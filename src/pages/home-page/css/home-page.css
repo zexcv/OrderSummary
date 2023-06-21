@@ -1,0 +1,60 @@
+:root {
+  --color-background: #F8F9FE;
+  --color-title: #151827;
+  --color-primary: #680262;
+  --color-text: #85859B;
+  --color-stroke: #CFD1DD;
+  --color-hover: #490245;
+}
+
+#home-page {
+  background-color: #fff;
+}
+#home-page .homepage-header-component__content h1 {
+  margin: 35px auto 22px;
+}
+#home-page .homepage-header-component__text {
+  color: var(--color-text);
+  margin: 0 auto 40px;
+  max-width: 349px;
+  height: 52px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#home-page .homepage-plan-component {
+  display: flex;
+  align-items: center;
+  width: 428px;
+  height: 83px;
+  margin: 40px auto 32px;
+  background-color: var(--color-background);
+  border-radius: 16px;
+}
+#home-page .homepage-plan-component__note {
+  padding: 13.5px 32px;
+  border-right: 1px solid var(--color-stroke);
+}
+#home-page .homepage-plan-component__price {
+  text-align: left;
+  margin-left: 32px;
+}
+#home-page .homepage-plan-component__price h2 {
+  font-size: 18px;
+}
+#home-page .homepage-plan-component__anchor-change {
+  margin: 29px auto 28px 112px;
+}
+#home-page .homepage-button-component button {
+  margin-bottom: 20px;
+  padding: 15px 137px 15px 138px;
+}
+#home-page .homepage-button-component__anchor-cancel {
+  color: var(--color-title);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-title);
+  height: 23px;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}/*# sourceMappingURL=home-page.css.map */

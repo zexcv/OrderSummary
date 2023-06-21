@@ -1,0 +1,74 @@
+.homepage-plan-component {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 83px;
+    margin: 40px auto 32px;
+    background-color: var(--color-background);
+    border-radius: 16px;
+
+    @media (max-width: 850px) {
+        width: 311px;
+        height: 75px;
+        margin: 25px auto 33px;
+    }
+    @media (max-width:350px){
+        width: 100%;
+    }
+    @media (max-width: 350px){
+        width: 95%;
+    }
+
+    &__note {
+        padding: 13.5px 32px;
+        margin-top: 2px;
+        border-right: 1px solid var(--color-stroke);
+        @media (max-width: 850px) {
+            content: url("./images/music.png");
+            padding: 9.5px 20px;
+            margin: 0px;
+        }
+        @media (max-width: 350px){
+            width: 60px;
+        }
+
+    }
+
+    &__price {
+
+        text-align: left;
+        margin-left: 31px;
+
+        @media (max-width:850px) {
+            margin-left: 23px;
+        }
+ 
+        
+        & h2 {
+            margin-bottom: 2px;
+            @media (max-width:850px) {
+                margin: 5px auto;
+                width: 92px;
+            }
+        }
+    }
+
+    &__anchor--change {
+
+        margin: 34px auto 30px 113px;
+        font-size: 16px;
+        font-weight: 700;
+        @media (max-width:850px) {
+            margin: 28px 24px auto auto;
+            font-size: 14px;
+        }
+        @media (max-width:350px){
+            font-size: 12px;
+            margin-left: 25px;
+        }
+    }
+
+  
+}

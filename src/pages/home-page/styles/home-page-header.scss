@@ -1,0 +1,44 @@
+.homepage-header-component{
+
+    &__content {
+        & h1 {
+            margin: 35px auto 22px;
+
+            @media (max-width: 850px) {
+                margin: 45px auto 18px;
+            }
+        }
+    }
+    
+    &__text {
+        color: var(--color-text);
+        margin: 0 auto;
+        max-width: 349px;
+        height: 52px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+
+        @media (max-width: 850px) {
+            font-size: 14px;
+            line-height: 22px;
+            margin: auto 16px; // tutaj coś chujowo
+            padding: 2px;
+        }
+    }
+
+    &__bg--img {
+
+        & img {
+            border-radius: 16px 16px 0 0;
+        }
+
+        @media (max-width: 850px) {
+            content: url("./images/big-image_tablet.png");
+            border-radius: 16px 16px 0 0;
+        }
+        @media (max-width:350px){
+            width: 270px;
+        }
+        
+    }
+} 

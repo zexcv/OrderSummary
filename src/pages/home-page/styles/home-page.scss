@@ -1,0 +1,19 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+
+@import "../../../global-styles/styles/root.scss";
+@import "./home-page-header.scss";
+@import "./home-page-plan.scss";
+@import "./home-page-button.scss";
+
+#home-page {
+
+    background-color: #fff;
+    @media (max-width:1440px){
+        margin: 87px 483px auto auto;
+    }
+    @media (max-width:1280px) {
+        margin:auto;
+    }
+    
+}
